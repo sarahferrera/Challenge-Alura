@@ -7,24 +7,36 @@
         <title> Challenge </title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="proyecto-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <h1><img src="imagenes/Logo.svg"></h1>
-            </div>
+           <img class="logo" src="imagenes/Logo.svg">
         </header>
 
         <main>
-        <input class=entrada type="text" placeholder="Ingresa tu texto">
-        <input class="salida" type="text" placeholder="Nada encontrado aún">
+            <section>
+                <textarea class=entrada-texto cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="boton-encriptar">Encriptar</button>
 
-        <button class="codificar"> Codificar </button>
-        <button class="descodificar"> Descodificar </button> 
+                    <button class="boton-desencriptar"> Desencriptar </button> 
+                </div>
+            </section>
+
+            <section>
+                <textarea class="mensaje" ols="20" rows="10" placeholder="Nada encontrado aún"></textarea>
+
+                <div>
+                    <button class="boton-copiar">Copiar</button>
+                </div>
+            </section>
+        
     </body>
-    
-
-
-
 
 </html>
