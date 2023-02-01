@@ -3,7 +3,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .logo{
@@ -21,12 +21,9 @@ main{
 .entrada-texto{
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 80px;
     text-transform: lowercase;
-    /* position: relative;
-    height:85%;
-    left: 240px;
-    top: 41px; */
+   
 }
 
 ::placeholder{ color: #0A3871;}
@@ -74,8 +71,10 @@ main{
     margin-left: 98px;
     margin-top: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
     position: fixed;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    position: absolute;
 }
 
 .mensaje:focus {
@@ -90,7 +89,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 402px;
+    margin-top: 300px;
     position: absolute;
     width: 336px;
 }
